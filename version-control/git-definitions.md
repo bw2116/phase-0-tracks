@@ -18,4 +18,4 @@
 
   - When the samething has been changed by more than one person and Git can't decide which change it should use.
 
-  * Here's my change.
+  * Here's another change.
