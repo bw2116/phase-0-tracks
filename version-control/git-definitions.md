@@ -17,3 +17,5 @@
 * What is a merge conflict?
 
   - When the samething has been changed by more than one person and Git can't decide which change it should use.
+
+  * Here's my change.
