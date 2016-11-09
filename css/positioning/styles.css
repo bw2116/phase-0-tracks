@@ -1,0 +1,19 @@
+#octo {
+  margin: auto;
+  padding: 100px 0 0 0;
+  display: block;
+  z-index: -1;
+}
+
+#hat {
+  position: fixed;
+  left: 42%;
+  top:  20px;
+  z-index: 
+}
+
+#glasses {
+  position: fixed;
+  left: 46%;
+  top: 210px;
+}
