@@ -1,3 +1,19 @@
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .8em;
+    }
+  img {
+    display: none;
+  }
+  }
+}
+
+#wrapper {
+  min-width: 400px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 blockquote {
   border-left: 5px solid blue;
   padding: 15px;
@@ -9,9 +25,20 @@ cite {
   margin-top: 10px;
 }
 
+section {
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+}
+
 #external-links ul {
   list-style-type: none;
   padding-left: 0px;
+}
+
+main {
+  width: 80%;
+  float: right;
 }
 
 /* you're welcome to edit the
