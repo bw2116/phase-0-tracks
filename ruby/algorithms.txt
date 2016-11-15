@@ -1,0 +1,21 @@
+- wait for doors to open
+- step forward until you are inside of elevator
+- turn 180 degrees
+- find the buttons with all of the floors
+- find the button that matches the floor you want to go to
+- press the button that matches the floor you want to go to 
+- verify that the button you pressed lights up
+- wait for the doors to close 
+- when the elevator's display shows the floor you want to go to walk towrds the front of the elevator
+- wait for the doors to open
+- walk past the doors 
+
+Brushing Teeth
+- grab and lift toothpaste tube
+- remove cap from toothpaste tube 
+- grab and lift toothbrush out of holder
+- place bristles of toothbrush under the uncapped end of toothpaste tube
+- gently press toothpaste tube until desired amount of toothpaste is on toothbrush
+- raise lips to expose teeth 
+- place toothbrush on teeth brush back and forth
+  - repeat for the front and back sids of upper and lower teeth
