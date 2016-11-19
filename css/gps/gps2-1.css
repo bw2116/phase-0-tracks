@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+header {
+  padding: 10px;
+}
+.column-1{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+article {
+  padding: 10px;
+}
+.column-2 {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+}
