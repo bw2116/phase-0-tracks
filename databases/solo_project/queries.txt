@@ -1,0 +1,114 @@
+select * from authors;
+1|John Smith
+2|Tony Randall
+3|Bert Lancaster
+4|Toni Bennett
+5|Carl Ropa
+
+update authors set author_name="Carl Sagan" where author_name="Carl Ropa";
+sqlite> select * from authors;
+1|John Smith
+2|Tony Randall
+3|Bert Lancaster
+4|Toni Bennett
+5|Carl Sagan
+
+select * from authors, books;
+1|John Smith|1|Shape Your Present|true|1
+1|John Smith|2|Predict Your Future|true|1
+1|John Smith|3|Progressive Liars|false|2
+1|John Smith|4|Rush the Presidency|true|2
+1|John Smith|5|The Ramayana|true|3
+1|John Smith|6|Shortened Prose|true|3
+1|John Smith|7|Version of the Indian Epic|false|3
+1|John Smith|8|Modern Prose Version|false|3
+1|John Smith|9|Folk Novel from China|false|3
+1|John Smith|10|A Civil Action|true|4
+1|John Smith|11|An Epic Reprint|true|4
+1|John Smith|12|The Daily Readings|true|5
+1|John Smith|13|The American Almanac|false|5
+1|John Smith|14|Rush Revere and the Brave Pilgrims|true|5
+2|Tony Randall|1|Shape Your Present|true|1
+2|Tony Randall|2|Predict Your Future|true|1
+2|Tony Randall|3|Progressive Liars|false|2
+2|Tony Randall|4|Rush the Presidency|true|2
+2|Tony Randall|5|The Ramayana|true|3
+2|Tony Randall|6|Shortened Prose|true|3
+2|Tony Randall|7|Version of the Indian Epic|false|3
+2|Tony Randall|8|Modern Prose Version|false|3
+2|Tony Randall|9|Folk Novel from China|false|3
+2|Tony Randall|10|A Civil Action|true|4
+2|Tony Randall|11|An Epic Reprint|true|4
+2|Tony Randall|12|The Daily Readings|true|5
+2|Tony Randall|13|The American Almanac|false|5
+2|Tony Randall|14|Rush Revere and the Brave Pilgrims|true|5
+3|Bert Lancaster|1|Shape Your Present|true|1
+3|Bert Lancaster|2|Predict Your Future|true|1
+3|Bert Lancaster|3|Progressive Liars|false|2
+3|Bert Lancaster|4|Rush the Presidency|true|2
+3|Bert Lancaster|5|The Ramayana|true|3
+3|Bert Lancaster|6|Shortened Prose|true|3
+3|Bert Lancaster|7|Version of the Indian Epic|false|3
+3|Bert Lancaster|8|Modern Prose Version|false|3
+3|Bert Lancaster|9|Folk Novel from China|false|3
+3|Bert Lancaster|10|A Civil Action|true|4
+3|Bert Lancaster|11|An Epic Reprint|true|4
+3|Bert Lancaster|12|The Daily Readings|true|5
+3|Bert Lancaster|13|The American Almanac|false|5
+3|Bert Lancaster|14|Rush Revere and the Brave Pilgrims|true|5
+4|Toni Bennett|1|Shape Your Present|true|1
+4|Toni Bennett|2|Predict Your Future|true|1
+4|Toni Bennett|3|Progressive Liars|false|2
+4|Toni Bennett|4|Rush the Presidency|true|2
+4|Toni Bennett|5|The Ramayana|true|3
+4|Toni Bennett|6|Shortened Prose|true|3
+4|Toni Bennett|7|Version of the Indian Epic|false|3
+4|Toni Bennett|8|Modern Prose Version|false|3
+4|Toni Bennett|9|Folk Novel from China|false|3
+4|Toni Bennett|10|A Civil Action|true|4
+4|Toni Bennett|11|An Epic Reprint|true|4
+4|Toni Bennett|12|The Daily Readings|true|5
+4|Toni Bennett|13|The American Almanac|false|5
+4|Toni Bennett|14|Rush Revere and the Brave Pilgrims|true|5
+5|Carl Sagan|1|Shape Your Present|true|1
+5|Carl Sagan|2|Predict Your Future|true|1
+5|Carl Sagan|3|Progressive Liars|false|2
+5|Carl Sagan|4|Rush the Presidency|true|2
+5|Carl Sagan|5|The Ramayana|true|3
+5|Carl Sagan|6|Shortened Prose|true|3
+5|Carl Sagan|7|Version of the Indian Epic|false|3
+5|Carl Sagan|8|Modern Prose Version|false|3
+5|Carl Sagan|9|Folk Novel from China|false|3
+5|Carl Sagan|10|A Civil Action|true|4
+5|Carl Sagan|11|An Epic Reprint|true|4
+5|Carl Sagan|12|The Daily Readings|true|5
+5|Carl Sagan|13|The American Almanac|false|5
+5|Carl Sagan|14|Rush Revere and the Brave Pilgrims|true|5
+
+select books.title, authors.author_name from books join authors on books.author_id=authors.author_id;
+Shape Your Present|John Smith
+Predict Your Future|John Smith
+Progressive Liars|Tony Randall
+Rush the Presidency|Tony Randall
+The Ramayana|Bert Lancaster
+Shortened Prose|Bert Lancaster
+Version of the Indian Epic|Bert Lancaster
+Modern Prose Version|Bert Lancaster
+Folk Novel from China|Bert Lancaster
+A Civil Action|Toni Bennett
+An Epic Reprint|Toni Bennett
+The Daily Readings|Carl Sagan
+The American Almanac|Carl Sagan
+Rush Revere and the Brave Pilgrims|Carl Sagan 
+
+delete from books where in_print = "false";
+select * from books;
+1|Shape Your Present|true|1
+2|Predict Your Future|true|1
+4|Rush the Presidency|true|2
+5|The Ramayana|true|3
+6|Shortened Prose|true|3
+10|A Civil Action|true|4
+11|An Epic Reprint|true|4
+12|The Daily Readings|true|5
+14|Rush Revere and the Brave Pilgrims|true|5
