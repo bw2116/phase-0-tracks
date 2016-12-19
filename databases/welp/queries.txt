@@ -1,0 +1,564 @@
+select * from businesses, reviews, users;
+1|Phoenix Restaurant|1|3|Taste Great!|3|1|1|John|Smith
+1|Phoenix Restaurant|1|3|Taste Great!|3|1|2|Bruce|Smith
+1|Phoenix Restaurant|1|3|Taste Great!|3|1|3|Brad|Bird
+1|Phoenix Restaurant|1|3|Taste Great!|3|1|4|Brandon|Brady
+1|Phoenix Restaurant|1|3|Taste Great!|3|1|5|Fred|Berkley
+1|Phoenix Restaurant|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+1|Phoenix Restaurant|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+1|Phoenix Restaurant|2|4|Good Eats!|1|6|1|John|Smith
+1|Phoenix Restaurant|2|4|Good Eats!|1|6|2|Bruce|Smith
+1|Phoenix Restaurant|2|4|Good Eats!|1|6|3|Brad|Bird
+1|Phoenix Restaurant|2|4|Good Eats!|1|6|4|Brandon|Brady
+1|Phoenix Restaurant|2|4|Good Eats!|1|6|5|Fred|Berkley
+1|Phoenix Restaurant|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+1|Phoenix Restaurant|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+1|Phoenix Restaurant|3|1|Horrible Food|8|7|1|John|Smith
+1|Phoenix Restaurant|3|1|Horrible Food|8|7|2|Bruce|Smith
+1|Phoenix Restaurant|3|1|Horrible Food|8|7|3|Brad|Bird
+1|Phoenix Restaurant|3|1|Horrible Food|8|7|4|Brandon|Brady
+1|Phoenix Restaurant|3|1|Horrible Food|8|7|5|Fred|Berkley
+1|Phoenix Restaurant|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+1|Phoenix Restaurant|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+1|Phoenix Restaurant|4|2|Not Edible|5|6|1|John|Smith
+1|Phoenix Restaurant|4|2|Not Edible|5|6|2|Bruce|Smith
+1|Phoenix Restaurant|4|2|Not Edible|5|6|3|Brad|Bird
+1|Phoenix Restaurant|4|2|Not Edible|5|6|4|Brandon|Brady
+1|Phoenix Restaurant|4|2|Not Edible|5|6|5|Fred|Berkley
+1|Phoenix Restaurant|4|2|Not Edible|5|6|6|Shannon|Sharpe
+1|Phoenix Restaurant|4|2|Not Edible|5|6|7|Benny|Clawhouser
+1|Phoenix Restaurant|5|5|Yummy|5|4|1|John|Smith
+1|Phoenix Restaurant|5|5|Yummy|5|4|2|Bruce|Smith
+1|Phoenix Restaurant|5|5|Yummy|5|4|3|Brad|Bird
+1|Phoenix Restaurant|5|5|Yummy|5|4|4|Brandon|Brady
+1|Phoenix Restaurant|5|5|Yummy|5|4|5|Fred|Berkley
+1|Phoenix Restaurant|5|5|Yummy|5|4|6|Shannon|Sharpe
+1|Phoenix Restaurant|5|5|Yummy|5|4|7|Benny|Clawhouser
+2|Public House|1|3|Taste Great!|3|1|1|John|Smith
+2|Public House|1|3|Taste Great!|3|1|2|Bruce|Smith
+2|Public House|1|3|Taste Great!|3|1|3|Brad|Bird
+2|Public House|1|3|Taste Great!|3|1|4|Brandon|Brady
+2|Public House|1|3|Taste Great!|3|1|5|Fred|Berkley
+2|Public House|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+2|Public House|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+2|Public House|2|4|Good Eats!|1|6|1|John|Smith
+2|Public House|2|4|Good Eats!|1|6|2|Bruce|Smith
+2|Public House|2|4|Good Eats!|1|6|3|Brad|Bird
+2|Public House|2|4|Good Eats!|1|6|4|Brandon|Brady
+2|Public House|2|4|Good Eats!|1|6|5|Fred|Berkley
+2|Public House|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+2|Public House|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+2|Public House|3|1|Horrible Food|8|7|1|John|Smith
+2|Public House|3|1|Horrible Food|8|7|2|Bruce|Smith
+2|Public House|3|1|Horrible Food|8|7|3|Brad|Bird
+2|Public House|3|1|Horrible Food|8|7|4|Brandon|Brady
+2|Public House|3|1|Horrible Food|8|7|5|Fred|Berkley
+2|Public House|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+2|Public House|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+2|Public House|4|2|Not Edible|5|6|1|John|Smith
+2|Public House|4|2|Not Edible|5|6|2|Bruce|Smith
+2|Public House|4|2|Not Edible|5|6|3|Brad|Bird
+2|Public House|4|2|Not Edible|5|6|4|Brandon|Brady
+2|Public House|4|2|Not Edible|5|6|5|Fred|Berkley
+2|Public House|4|2|Not Edible|5|6|6|Shannon|Sharpe
+2|Public House|4|2|Not Edible|5|6|7|Benny|Clawhouser
+2|Public House|5|5|Yummy|5|4|1|John|Smith
+2|Public House|5|5|Yummy|5|4|2|Bruce|Smith
+2|Public House|5|5|Yummy|5|4|3|Brad|Bird
+2|Public House|5|5|Yummy|5|4|4|Brandon|Brady
+2|Public House|5|5|Yummy|5|4|5|Fred|Berkley
+2|Public House|5|5|Yummy|5|4|6|Shannon|Sharpe
+2|Public House|5|5|Yummy|5|4|7|Benny|Clawhouser
+3|Kawa|1|3|Taste Great!|3|1|1|John|Smith
+3|Kawa|1|3|Taste Great!|3|1|2|Bruce|Smith
+3|Kawa|1|3|Taste Great!|3|1|3|Brad|Bird
+3|Kawa|1|3|Taste Great!|3|1|4|Brandon|Brady
+3|Kawa|1|3|Taste Great!|3|1|5|Fred|Berkley
+3|Kawa|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+3|Kawa|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+3|Kawa|2|4|Good Eats!|1|6|1|John|Smith
+3|Kawa|2|4|Good Eats!|1|6|2|Bruce|Smith
+3|Kawa|2|4|Good Eats!|1|6|3|Brad|Bird
+3|Kawa|2|4|Good Eats!|1|6|4|Brandon|Brady
+3|Kawa|2|4|Good Eats!|1|6|5|Fred|Berkley
+3|Kawa|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+3|Kawa|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+3|Kawa|3|1|Horrible Food|8|7|1|John|Smith
+3|Kawa|3|1|Horrible Food|8|7|2|Bruce|Smith
+3|Kawa|3|1|Horrible Food|8|7|3|Brad|Bird
+3|Kawa|3|1|Horrible Food|8|7|4|Brandon|Brady
+3|Kawa|3|1|Horrible Food|8|7|5|Fred|Berkley
+3|Kawa|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+3|Kawa|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+3|Kawa|4|2|Not Edible|5|6|1|John|Smith
+3|Kawa|4|2|Not Edible|5|6|2|Bruce|Smith
+3|Kawa|4|2|Not Edible|5|6|3|Brad|Bird
+3|Kawa|4|2|Not Edible|5|6|4|Brandon|Brady
+3|Kawa|4|2|Not Edible|5|6|5|Fred|Berkley
+3|Kawa|4|2|Not Edible|5|6|6|Shannon|Sharpe
+3|Kawa|4|2|Not Edible|5|6|7|Benny|Clawhouser
+3|Kawa|5|5|Yummy|5|4|1|John|Smith
+3|Kawa|5|5|Yummy|5|4|2|Bruce|Smith
+3|Kawa|5|5|Yummy|5|4|3|Brad|Bird
+3|Kawa|5|5|Yummy|5|4|4|Brandon|Brady
+3|Kawa|5|5|Yummy|5|4|5|Fred|Berkley
+3|Kawa|5|5|Yummy|5|4|6|Shannon|Sharpe
+3|Kawa|5|5|Yummy|5|4|7|Benny|Clawhouser
+4|Satay (Sushi, Thai & Asian)|1|3|Taste Great!|3|1|1|John|Smith
+4|Satay (Sushi, Thai & Asian)|1|3|Taste Great!|3|1|2|Bruce|Smith
+4|Satay (Sushi, Thai & Asian)|1|3|Taste Great!|3|1|3|Brad|Bird
+4|Satay (Sushi, Thai & Asian)|1|3|Taste Great!|3|1|4|Brandon|Brady
+4|Satay (Sushi, Thai & Asian)|1|3|Taste Great!|3|1|5|Fred|Berkley
+4|Satay (Sushi, Thai & Asian)|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+4|Satay (Sushi, Thai & Asian)|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+4|Satay (Sushi, Thai & Asian)|2|4|Good Eats!|1|6|1|John|Smith
+4|Satay (Sushi, Thai & Asian)|2|4|Good Eats!|1|6|2|Bruce|Smith
+4|Satay (Sushi, Thai & Asian)|2|4|Good Eats!|1|6|3|Brad|Bird
+4|Satay (Sushi, Thai & Asian)|2|4|Good Eats!|1|6|4|Brandon|Brady
+4|Satay (Sushi, Thai & Asian)|2|4|Good Eats!|1|6|5|Fred|Berkley
+4|Satay (Sushi, Thai & Asian)|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+4|Satay (Sushi, Thai & Asian)|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+4|Satay (Sushi, Thai & Asian)|3|1|Horrible Food|8|7|1|John|Smith
+4|Satay (Sushi, Thai & Asian)|3|1|Horrible Food|8|7|2|Bruce|Smith
+4|Satay (Sushi, Thai & Asian)|3|1|Horrible Food|8|7|3|Brad|Bird
+4|Satay (Sushi, Thai & Asian)|3|1|Horrible Food|8|7|4|Brandon|Brady
+4|Satay (Sushi, Thai & Asian)|3|1|Horrible Food|8|7|5|Fred|Berkley
+4|Satay (Sushi, Thai & Asian)|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+4|Satay (Sushi, Thai & Asian)|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+4|Satay (Sushi, Thai & Asian)|4|2|Not Edible|5|6|1|John|Smith
+4|Satay (Sushi, Thai & Asian)|4|2|Not Edible|5|6|2|Bruce|Smith
+4|Satay (Sushi, Thai & Asian)|4|2|Not Edible|5|6|3|Brad|Bird
+4|Satay (Sushi, Thai & Asian)|4|2|Not Edible|5|6|4|Brandon|Brady
+4|Satay (Sushi, Thai & Asian)|4|2|Not Edible|5|6|5|Fred|Berkley
+4|Satay (Sushi, Thai & Asian)|4|2|Not Edible|5|6|6|Shannon|Sharpe
+4|Satay (Sushi, Thai & Asian)|4|2|Not Edible|5|6|7|Benny|Clawhouser
+4|Satay (Sushi, Thai & Asian)|5|5|Yummy|5|4|1|John|Smith
+4|Satay (Sushi, Thai & Asian)|5|5|Yummy|5|4|2|Bruce|Smith
+4|Satay (Sushi, Thai & Asian)|5|5|Yummy|5|4|3|Brad|Bird
+4|Satay (Sushi, Thai & Asian)|5|5|Yummy|5|4|4|Brandon|Brady
+4|Satay (Sushi, Thai & Asian)|5|5|Yummy|5|4|5|Fred|Berkley
+4|Satay (Sushi, Thai & Asian)|5|5|Yummy|5|4|6|Shannon|Sharpe
+4|Satay (Sushi, Thai & Asian)|5|5|Yummy|5|4|7|Benny|Clawhouser
+5|Sarpino's Pizzeria on Lake St|1|3|Taste Great!|3|1|1|John|Smith
+5|Sarpino's Pizzeria on Lake St|1|3|Taste Great!|3|1|2|Bruce|Smith
+5|Sarpino's Pizzeria on Lake St|1|3|Taste Great!|3|1|3|Brad|Bird
+5|Sarpino's Pizzeria on Lake St|1|3|Taste Great!|3|1|4|Brandon|Brady
+5|Sarpino's Pizzeria on Lake St|1|3|Taste Great!|3|1|5|Fred|Berkley
+5|Sarpino's Pizzeria on Lake St|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+5|Sarpino's Pizzeria on Lake St|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+5|Sarpino's Pizzeria on Lake St|2|4|Good Eats!|1|6|1|John|Smith
+5|Sarpino's Pizzeria on Lake St|2|4|Good Eats!|1|6|2|Bruce|Smith
+5|Sarpino's Pizzeria on Lake St|2|4|Good Eats!|1|6|3|Brad|Bird
+5|Sarpino's Pizzeria on Lake St|2|4|Good Eats!|1|6|4|Brandon|Brady
+5|Sarpino's Pizzeria on Lake St|2|4|Good Eats!|1|6|5|Fred|Berkley
+5|Sarpino's Pizzeria on Lake St|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+5|Sarpino's Pizzeria on Lake St|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+5|Sarpino's Pizzeria on Lake St|3|1|Horrible Food|8|7|1|John|Smith
+5|Sarpino's Pizzeria on Lake St|3|1|Horrible Food|8|7|2|Bruce|Smith
+5|Sarpino's Pizzeria on Lake St|3|1|Horrible Food|8|7|3|Brad|Bird
+5|Sarpino's Pizzeria on Lake St|3|1|Horrible Food|8|7|4|Brandon|Brady
+5|Sarpino's Pizzeria on Lake St|3|1|Horrible Food|8|7|5|Fred|Berkley
+5|Sarpino's Pizzeria on Lake St|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+5|Sarpino's Pizzeria on Lake St|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+5|Sarpino's Pizzeria on Lake St|4|2|Not Edible|5|6|1|John|Smith
+5|Sarpino's Pizzeria on Lake St|4|2|Not Edible|5|6|2|Bruce|Smith
+5|Sarpino's Pizzeria on Lake St|4|2|Not Edible|5|6|3|Brad|Bird
+5|Sarpino's Pizzeria on Lake St|4|2|Not Edible|5|6|4|Brandon|Brady
+5|Sarpino's Pizzeria on Lake St|4|2|Not Edible|5|6|5|Fred|Berkley
+5|Sarpino's Pizzeria on Lake St|4|2|Not Edible|5|6|6|Shannon|Sharpe
+5|Sarpino's Pizzeria on Lake St|4|2|Not Edible|5|6|7|Benny|Clawhouser
+5|Sarpino's Pizzeria on Lake St|5|5|Yummy|5|4|1|John|Smith
+5|Sarpino's Pizzeria on Lake St|5|5|Yummy|5|4|2|Bruce|Smith
+5|Sarpino's Pizzeria on Lake St|5|5|Yummy|5|4|3|Brad|Bird
+5|Sarpino's Pizzeria on Lake St|5|5|Yummy|5|4|4|Brandon|Brady
+5|Sarpino's Pizzeria on Lake St|5|5|Yummy|5|4|5|Fred|Berkley
+5|Sarpino's Pizzeria on Lake St|5|5|Yummy|5|4|6|Shannon|Sharpe
+5|Sarpino's Pizzeria on Lake St|5|5|Yummy|5|4|7|Benny|Clawhouser
+6|Chen's Chinese & Cuisine|1|3|Taste Great!|3|1|1|John|Smith
+6|Chen's Chinese & Cuisine|1|3|Taste Great!|3|1|2|Bruce|Smith
+6|Chen's Chinese & Cuisine|1|3|Taste Great!|3|1|3|Brad|Bird
+6|Chen's Chinese & Cuisine|1|3|Taste Great!|3|1|4|Brandon|Brady
+6|Chen's Chinese & Cuisine|1|3|Taste Great!|3|1|5|Fred|Berkley
+6|Chen's Chinese & Cuisine|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+6|Chen's Chinese & Cuisine|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+6|Chen's Chinese & Cuisine|2|4|Good Eats!|1|6|1|John|Smith
+6|Chen's Chinese & Cuisine|2|4|Good Eats!|1|6|2|Bruce|Smith
+6|Chen's Chinese & Cuisine|2|4|Good Eats!|1|6|3|Brad|Bird
+6|Chen's Chinese & Cuisine|2|4|Good Eats!|1|6|4|Brandon|Brady
+6|Chen's Chinese & Cuisine|2|4|Good Eats!|1|6|5|Fred|Berkley
+6|Chen's Chinese & Cuisine|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+6|Chen's Chinese & Cuisine|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+6|Chen's Chinese & Cuisine|3|1|Horrible Food|8|7|1|John|Smith
+6|Chen's Chinese & Cuisine|3|1|Horrible Food|8|7|2|Bruce|Smith
+6|Chen's Chinese & Cuisine|3|1|Horrible Food|8|7|3|Brad|Bird
+6|Chen's Chinese & Cuisine|3|1|Horrible Food|8|7|4|Brandon|Brady
+6|Chen's Chinese & Cuisine|3|1|Horrible Food|8|7|5|Fred|Berkley
+6|Chen's Chinese & Cuisine|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+6|Chen's Chinese & Cuisine|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+6|Chen's Chinese & Cuisine|4|2|Not Edible|5|6|1|John|Smith
+6|Chen's Chinese & Cuisine|4|2|Not Edible|5|6|2|Bruce|Smith
+6|Chen's Chinese & Cuisine|4|2|Not Edible|5|6|3|Brad|Bird
+6|Chen's Chinese & Cuisine|4|2|Not Edible|5|6|4|Brandon|Brady
+6|Chen's Chinese & Cuisine|4|2|Not Edible|5|6|5|Fred|Berkley
+6|Chen's Chinese & Cuisine|4|2|Not Edible|5|6|6|Shannon|Sharpe
+6|Chen's Chinese & Cuisine|4|2|Not Edible|5|6|7|Benny|Clawhouser
+6|Chen's Chinese & Cuisine|5|5|Yummy|5|4|1|John|Smith
+6|Chen's Chinese & Cuisine|5|5|Yummy|5|4|2|Bruce|Smith
+6|Chen's Chinese & Cuisine|5|5|Yummy|5|4|3|Brad|Bird
+6|Chen's Chinese & Cuisine|5|5|Yummy|5|4|4|Brandon|Brady
+6|Chen's Chinese & Cuisine|5|5|Yummy|5|4|5|Fred|Berkley
+6|Chen's Chinese & Cuisine|5|5|Yummy|5|4|6|Shannon|Sharpe
+6|Chen's Chinese & Cuisine|5|5|Yummy|5|4|7|Benny|Clawhouser
+7|Al's Italian Beef|1|3|Taste Great!|3|1|1|John|Smith
+7|Al's Italian Beef|1|3|Taste Great!|3|1|2|Bruce|Smith
+7|Al's Italian Beef|1|3|Taste Great!|3|1|3|Brad|Bird
+7|Al's Italian Beef|1|3|Taste Great!|3|1|4|Brandon|Brady
+7|Al's Italian Beef|1|3|Taste Great!|3|1|5|Fred|Berkley
+7|Al's Italian Beef|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+7|Al's Italian Beef|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+7|Al's Italian Beef|2|4|Good Eats!|1|6|1|John|Smith
+7|Al's Italian Beef|2|4|Good Eats!|1|6|2|Bruce|Smith
+7|Al's Italian Beef|2|4|Good Eats!|1|6|3|Brad|Bird
+7|Al's Italian Beef|2|4|Good Eats!|1|6|4|Brandon|Brady
+7|Al's Italian Beef|2|4|Good Eats!|1|6|5|Fred|Berkley
+7|Al's Italian Beef|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+7|Al's Italian Beef|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+7|Al's Italian Beef|3|1|Horrible Food|8|7|1|John|Smith
+7|Al's Italian Beef|3|1|Horrible Food|8|7|2|Bruce|Smith
+7|Al's Italian Beef|3|1|Horrible Food|8|7|3|Brad|Bird
+7|Al's Italian Beef|3|1|Horrible Food|8|7|4|Brandon|Brady
+7|Al's Italian Beef|3|1|Horrible Food|8|7|5|Fred|Berkley
+7|Al's Italian Beef|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+7|Al's Italian Beef|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+7|Al's Italian Beef|4|2|Not Edible|5|6|1|John|Smith
+7|Al's Italian Beef|4|2|Not Edible|5|6|2|Bruce|Smith
+7|Al's Italian Beef|4|2|Not Edible|5|6|3|Brad|Bird
+7|Al's Italian Beef|4|2|Not Edible|5|6|4|Brandon|Brady
+7|Al's Italian Beef|4|2|Not Edible|5|6|5|Fred|Berkley
+7|Al's Italian Beef|4|2|Not Edible|5|6|6|Shannon|Sharpe
+7|Al's Italian Beef|4|2|Not Edible|5|6|7|Benny|Clawhouser
+7|Al's Italian Beef|5|5|Yummy|5|4|1|John|Smith
+7|Al's Italian Beef|5|5|Yummy|5|4|2|Bruce|Smith
+7|Al's Italian Beef|5|5|Yummy|5|4|3|Brad|Bird
+7|Al's Italian Beef|5|5|Yummy|5|4|4|Brandon|Brady
+7|Al's Italian Beef|5|5|Yummy|5|4|5|Fred|Berkley
+7|Al's Italian Beef|5|5|Yummy|5|4|6|Shannon|Sharpe
+7|Al's Italian Beef|5|5|Yummy|5|4|7|Benny|Clawhouser
+8|Golden Apple Grill & Breakfast House|1|3|Taste Great!|3|1|1|John|Smith
+8|Golden Apple Grill & Breakfast House|1|3|Taste Great!|3|1|2|Bruce|Smith
+8|Golden Apple Grill & Breakfast House|1|3|Taste Great!|3|1|3|Brad|Bird
+8|Golden Apple Grill & Breakfast House|1|3|Taste Great!|3|1|4|Brandon|Brady
+8|Golden Apple Grill & Breakfast House|1|3|Taste Great!|3|1|5|Fred|Berkley
+8|Golden Apple Grill & Breakfast House|1|3|Taste Great!|3|1|6|Shannon|Sharpe
+8|Golden Apple Grill & Breakfast House|1|3|Taste Great!|3|1|7|Benny|Clawhouser
+8|Golden Apple Grill & Breakfast House|2|4|Good Eats!|1|6|1|John|Smith
+8|Golden Apple Grill & Breakfast House|2|4|Good Eats!|1|6|2|Bruce|Smith
+8|Golden Apple Grill & Breakfast House|2|4|Good Eats!|1|6|3|Brad|Bird
+8|Golden Apple Grill & Breakfast House|2|4|Good Eats!|1|6|4|Brandon|Brady
+8|Golden Apple Grill & Breakfast House|2|4|Good Eats!|1|6|5|Fred|Berkley
+8|Golden Apple Grill & Breakfast House|2|4|Good Eats!|1|6|6|Shannon|Sharpe
+8|Golden Apple Grill & Breakfast House|2|4|Good Eats!|1|6|7|Benny|Clawhouser
+8|Golden Apple Grill & Breakfast House|3|1|Horrible Food|8|7|1|John|Smith
+8|Golden Apple Grill & Breakfast House|3|1|Horrible Food|8|7|2|Bruce|Smith
+8|Golden Apple Grill & Breakfast House|3|1|Horrible Food|8|7|3|Brad|Bird
+8|Golden Apple Grill & Breakfast House|3|1|Horrible Food|8|7|4|Brandon|Brady
+8|Golden Apple Grill & Breakfast House|3|1|Horrible Food|8|7|5|Fred|Berkley
+8|Golden Apple Grill & Breakfast House|3|1|Horrible Food|8|7|6|Shannon|Sharpe
+8|Golden Apple Grill & Breakfast House|3|1|Horrible Food|8|7|7|Benny|Clawhouser
+8|Golden Apple Grill & Breakfast House|4|2|Not Edible|5|6|1|John|Smith
+8|Golden Apple Grill & Breakfast House|4|2|Not Edible|5|6|2|Bruce|Smith
+8|Golden Apple Grill & Breakfast House|4|2|Not Edible|5|6|3|Brad|Bird
+8|Golden Apple Grill & Breakfast House|4|2|Not Edible|5|6|4|Brandon|Brady
+8|Golden Apple Grill & Breakfast House|4|2|Not Edible|5|6|5|Fred|Berkley
+8|Golden Apple Grill & Breakfast House|4|2|Not Edible|5|6|6|Shannon|Sharpe
+8|Golden Apple Grill & Breakfast House|4|2|Not Edible|5|6|7|Benny|Clawhouser
+8|Golden Apple Grill & Breakfast House|5|5|Yummy|5|4|1|John|Smith
+8|Golden Apple Grill & Breakfast House|5|5|Yummy|5|4|2|Bruce|Smith
+8|Golden Apple Grill & Breakfast House|5|5|Yummy|5|4|3|Brad|Bird
+8|Golden Apple Grill & Breakfast House|5|5|Yummy|5|4|4|Brandon|Brady
+8|Golden Apple Grill & Breakfast House|5|5|Yummy|5|4|5|Fred|Berkley
+8|Golden Apple Grill & Breakfast House|5|5|Yummy|5|4|6|Shannon|Sharpe
+8|Golden Apple Grill & Breakfast House|5|5|Yummy|5|4|7|Benny|Clawhouser
+
+select users.first_name, users.last_name, businesses.name, reviews.stars, reviews.comment from users, reviews, businesses;
+John|Smith|Phoenix Restaurant|3|Taste Great!
+John|Smith|Public House|3|Taste Great!
+John|Smith|Kawa|3|Taste Great!
+John|Smith|Satay (Sushi, Thai & Asian)|3|Taste Great!
+John|Smith|Sarpino's Pizzeria on Lake St|3|Taste Great!
+John|Smith|Chen's Chinese & Cuisine|3|Taste Great!
+John|Smith|Al's Italian Beef|3|Taste Great!
+John|Smith|Golden Apple Grill & Breakfast House|3|Taste Great!
+John|Smith|Phoenix Restaurant|4|Good Eats!
+John|Smith|Public House|4|Good Eats!
+John|Smith|Kawa|4|Good Eats!
+John|Smith|Satay (Sushi, Thai & Asian)|4|Good Eats!
+John|Smith|Sarpino's Pizzeria on Lake St|4|Good Eats!
+John|Smith|Chen's Chinese & Cuisine|4|Good Eats!
+John|Smith|Al's Italian Beef|4|Good Eats!
+John|Smith|Golden Apple Grill & Breakfast House|4|Good Eats!
+John|Smith|Phoenix Restaurant|1|Horrible Food
+John|Smith|Public House|1|Horrible Food
+John|Smith|Kawa|1|Horrible Food
+John|Smith|Satay (Sushi, Thai & Asian)|1|Horrible Food
+John|Smith|Sarpino's Pizzeria on Lake St|1|Horrible Food
+John|Smith|Chen's Chinese & Cuisine|1|Horrible Food
+John|Smith|Al's Italian Beef|1|Horrible Food
+John|Smith|Golden Apple Grill & Breakfast House|1|Horrible Food
+John|Smith|Phoenix Restaurant|2|Not Edible
+John|Smith|Public House|2|Not Edible
+John|Smith|Kawa|2|Not Edible
+John|Smith|Satay (Sushi, Thai & Asian)|2|Not Edible
+John|Smith|Sarpino's Pizzeria on Lake St|2|Not Edible
+John|Smith|Chen's Chinese & Cuisine|2|Not Edible
+John|Smith|Al's Italian Beef|2|Not Edible
+John|Smith|Golden Apple Grill & Breakfast House|2|Not Edible
+John|Smith|Phoenix Restaurant|5|Yummy
+John|Smith|Public House|5|Yummy
+John|Smith|Kawa|5|Yummy
+John|Smith|Satay (Sushi, Thai & Asian)|5|Yummy
+John|Smith|Sarpino's Pizzeria on Lake St|5|Yummy
+John|Smith|Chen's Chinese & Cuisine|5|Yummy
+John|Smith|Al's Italian Beef|5|Yummy
+John|Smith|Golden Apple Grill & Breakfast House|5|Yummy
+Bruce|Smith|Phoenix Restaurant|3|Taste Great!
+Bruce|Smith|Public House|3|Taste Great!
+Bruce|Smith|Kawa|3|Taste Great!
+Bruce|Smith|Satay (Sushi, Thai & Asian)|3|Taste Great!
+Bruce|Smith|Sarpino's Pizzeria on Lake St|3|Taste Great!
+Bruce|Smith|Chen's Chinese & Cuisine|3|Taste Great!
+Bruce|Smith|Al's Italian Beef|3|Taste Great!
+Bruce|Smith|Golden Apple Grill & Breakfast House|3|Taste Great!
+Bruce|Smith|Phoenix Restaurant|4|Good Eats!
+Bruce|Smith|Public House|4|Good Eats!
+Bruce|Smith|Kawa|4|Good Eats!
+Bruce|Smith|Satay (Sushi, Thai & Asian)|4|Good Eats!
+Bruce|Smith|Sarpino's Pizzeria on Lake St|4|Good Eats!
+Bruce|Smith|Chen's Chinese & Cuisine|4|Good Eats!
+Bruce|Smith|Al's Italian Beef|4|Good Eats!
+Bruce|Smith|Golden Apple Grill & Breakfast House|4|Good Eats!
+Bruce|Smith|Phoenix Restaurant|1|Horrible Food
+Bruce|Smith|Public House|1|Horrible Food
+Bruce|Smith|Kawa|1|Horrible Food
+Bruce|Smith|Satay (Sushi, Thai & Asian)|1|Horrible Food
+Bruce|Smith|Sarpino's Pizzeria on Lake St|1|Horrible Food
+Bruce|Smith|Chen's Chinese & Cuisine|1|Horrible Food
+Bruce|Smith|Al's Italian Beef|1|Horrible Food
+Bruce|Smith|Golden Apple Grill & Breakfast House|1|Horrible Food
+Bruce|Smith|Phoenix Restaurant|2|Not Edible
+Bruce|Smith|Public House|2|Not Edible
+Bruce|Smith|Kawa|2|Not Edible
+Bruce|Smith|Satay (Sushi, Thai & Asian)|2|Not Edible
+Bruce|Smith|Sarpino's Pizzeria on Lake St|2|Not Edible
+Bruce|Smith|Chen's Chinese & Cuisine|2|Not Edible
+Bruce|Smith|Al's Italian Beef|2|Not Edible
+Bruce|Smith|Golden Apple Grill & Breakfast House|2|Not Edible
+Bruce|Smith|Phoenix Restaurant|5|Yummy
+Bruce|Smith|Public House|5|Yummy
+Bruce|Smith|Kawa|5|Yummy
+Bruce|Smith|Satay (Sushi, Thai & Asian)|5|Yummy
+Bruce|Smith|Sarpino's Pizzeria on Lake St|5|Yummy
+Bruce|Smith|Chen's Chinese & Cuisine|5|Yummy
+Bruce|Smith|Al's Italian Beef|5|Yummy
+Bruce|Smith|Golden Apple Grill & Breakfast House|5|Yummy
+Brad|Bird|Phoenix Restaurant|3|Taste Great!
+Brad|Bird|Public House|3|Taste Great!
+Brad|Bird|Kawa|3|Taste Great!
+Brad|Bird|Satay (Sushi, Thai & Asian)|3|Taste Great!
+Brad|Bird|Sarpino's Pizzeria on Lake St|3|Taste Great!
+Brad|Bird|Chen's Chinese & Cuisine|3|Taste Great!
+Brad|Bird|Al's Italian Beef|3|Taste Great!
+Brad|Bird|Golden Apple Grill & Breakfast House|3|Taste Great!
+Brad|Bird|Phoenix Restaurant|4|Good Eats!
+Brad|Bird|Public House|4|Good Eats!
+Brad|Bird|Kawa|4|Good Eats!
+Brad|Bird|Satay (Sushi, Thai & Asian)|4|Good Eats!
+Brad|Bird|Sarpino's Pizzeria on Lake St|4|Good Eats!
+Brad|Bird|Chen's Chinese & Cuisine|4|Good Eats!
+Brad|Bird|Al's Italian Beef|4|Good Eats!
+Brad|Bird|Golden Apple Grill & Breakfast House|4|Good Eats!
+Brad|Bird|Phoenix Restaurant|1|Horrible Food
+Brad|Bird|Public House|1|Horrible Food
+Brad|Bird|Kawa|1|Horrible Food
+Brad|Bird|Satay (Sushi, Thai & Asian)|1|Horrible Food
+Brad|Bird|Sarpino's Pizzeria on Lake St|1|Horrible Food
+Brad|Bird|Chen's Chinese & Cuisine|1|Horrible Food
+Brad|Bird|Al's Italian Beef|1|Horrible Food
+Brad|Bird|Golden Apple Grill & Breakfast House|1|Horrible Food
+Brad|Bird|Phoenix Restaurant|2|Not Edible
+Brad|Bird|Public House|2|Not Edible
+Brad|Bird|Kawa|2|Not Edible
+Brad|Bird|Satay (Sushi, Thai & Asian)|2|Not Edible
+Brad|Bird|Sarpino's Pizzeria on Lake St|2|Not Edible
+Brad|Bird|Chen's Chinese & Cuisine|2|Not Edible
+Brad|Bird|Al's Italian Beef|2|Not Edible
+Brad|Bird|Golden Apple Grill & Breakfast House|2|Not Edible
+Brad|Bird|Phoenix Restaurant|5|Yummy
+Brad|Bird|Public House|5|Yummy
+Brad|Bird|Kawa|5|Yummy
+Brad|Bird|Satay (Sushi, Thai & Asian)|5|Yummy
+Brad|Bird|Sarpino's Pizzeria on Lake St|5|Yummy
+Brad|Bird|Chen's Chinese & Cuisine|5|Yummy
+Brad|Bird|Al's Italian Beef|5|Yummy
+Brad|Bird|Golden Apple Grill & Breakfast House|5|Yummy
+Brandon|Brady|Phoenix Restaurant|3|Taste Great!
+Brandon|Brady|Public House|3|Taste Great!
+Brandon|Brady|Kawa|3|Taste Great!
+Brandon|Brady|Satay (Sushi, Thai & Asian)|3|Taste Great!
+Brandon|Brady|Sarpino's Pizzeria on Lake St|3|Taste Great!
+Brandon|Brady|Chen's Chinese & Cuisine|3|Taste Great!
+Brandon|Brady|Al's Italian Beef|3|Taste Great!
+Brandon|Brady|Golden Apple Grill & Breakfast House|3|Taste Great!
+Brandon|Brady|Phoenix Restaurant|4|Good Eats!
+Brandon|Brady|Public House|4|Good Eats!
+Brandon|Brady|Kawa|4|Good Eats!
+Brandon|Brady|Satay (Sushi, Thai & Asian)|4|Good Eats!
+Brandon|Brady|Sarpino's Pizzeria on Lake St|4|Good Eats!
+Brandon|Brady|Chen's Chinese & Cuisine|4|Good Eats!
+Brandon|Brady|Al's Italian Beef|4|Good Eats!
+Brandon|Brady|Golden Apple Grill & Breakfast House|4|Good Eats!
+Brandon|Brady|Phoenix Restaurant|1|Horrible Food
+Brandon|Brady|Public House|1|Horrible Food
+Brandon|Brady|Kawa|1|Horrible Food
+Brandon|Brady|Satay (Sushi, Thai & Asian)|1|Horrible Food
+Brandon|Brady|Sarpino's Pizzeria on Lake St|1|Horrible Food
+Brandon|Brady|Chen's Chinese & Cuisine|1|Horrible Food
+Brandon|Brady|Al's Italian Beef|1|Horrible Food
+Brandon|Brady|Golden Apple Grill & Breakfast House|1|Horrible Food
+Brandon|Brady|Phoenix Restaurant|2|Not Edible
+Brandon|Brady|Public House|2|Not Edible
+Brandon|Brady|Kawa|2|Not Edible
+Brandon|Brady|Satay (Sushi, Thai & Asian)|2|Not Edible
+Brandon|Brady|Sarpino's Pizzeria on Lake St|2|Not Edible
+Brandon|Brady|Chen's Chinese & Cuisine|2|Not Edible
+Brandon|Brady|Al's Italian Beef|2|Not Edible
+Brandon|Brady|Golden Apple Grill & Breakfast House|2|Not Edible
+Brandon|Brady|Phoenix Restaurant|5|Yummy
+Brandon|Brady|Public House|5|Yummy
+Brandon|Brady|Kawa|5|Yummy
+Brandon|Brady|Satay (Sushi, Thai & Asian)|5|Yummy
+Brandon|Brady|Sarpino's Pizzeria on Lake St|5|Yummy
+Brandon|Brady|Chen's Chinese & Cuisine|5|Yummy
+Brandon|Brady|Al's Italian Beef|5|Yummy
+Brandon|Brady|Golden Apple Grill & Breakfast House|5|Yummy
+Fred|Berkley|Phoenix Restaurant|3|Taste Great!
+Fred|Berkley|Public House|3|Taste Great!
+Fred|Berkley|Kawa|3|Taste Great!
+Fred|Berkley|Satay (Sushi, Thai & Asian)|3|Taste Great!
+Fred|Berkley|Sarpino's Pizzeria on Lake St|3|Taste Great!
+Fred|Berkley|Chen's Chinese & Cuisine|3|Taste Great!
+Fred|Berkley|Al's Italian Beef|3|Taste Great!
+Fred|Berkley|Golden Apple Grill & Breakfast House|3|Taste Great!
+Fred|Berkley|Phoenix Restaurant|4|Good Eats!
+Fred|Berkley|Public House|4|Good Eats!
+Fred|Berkley|Kawa|4|Good Eats!
+Fred|Berkley|Satay (Sushi, Thai & Asian)|4|Good Eats!
+Fred|Berkley|Sarpino's Pizzeria on Lake St|4|Good Eats!
+Fred|Berkley|Chen's Chinese & Cuisine|4|Good Eats!
+Fred|Berkley|Al's Italian Beef|4|Good Eats!
+Fred|Berkley|Golden Apple Grill & Breakfast House|4|Good Eats!
+Fred|Berkley|Phoenix Restaurant|1|Horrible Food
+Fred|Berkley|Public House|1|Horrible Food
+Fred|Berkley|Kawa|1|Horrible Food
+Fred|Berkley|Satay (Sushi, Thai & Asian)|1|Horrible Food
+Fred|Berkley|Sarpino's Pizzeria on Lake St|1|Horrible Food
+Fred|Berkley|Chen's Chinese & Cuisine|1|Horrible Food
+Fred|Berkley|Al's Italian Beef|1|Horrible Food
+Fred|Berkley|Golden Apple Grill & Breakfast House|1|Horrible Food
+Fred|Berkley|Phoenix Restaurant|2|Not Edible
+Fred|Berkley|Public House|2|Not Edible
+Fred|Berkley|Kawa|2|Not Edible
+Fred|Berkley|Satay (Sushi, Thai & Asian)|2|Not Edible
+Fred|Berkley|Sarpino's Pizzeria on Lake St|2|Not Edible
+Fred|Berkley|Chen's Chinese & Cuisine|2|Not Edible
+Fred|Berkley|Al's Italian Beef|2|Not Edible
+Fred|Berkley|Golden Apple Grill & Breakfast House|2|Not Edible
+Fred|Berkley|Phoenix Restaurant|5|Yummy
+Fred|Berkley|Public House|5|Yummy
+Fred|Berkley|Kawa|5|Yummy
+Fred|Berkley|Satay (Sushi, Thai & Asian)|5|Yummy
+Fred|Berkley|Sarpino's Pizzeria on Lake St|5|Yummy
+Fred|Berkley|Chen's Chinese & Cuisine|5|Yummy
+Fred|Berkley|Al's Italian Beef|5|Yummy
+Fred|Berkley|Golden Apple Grill & Breakfast House|5|Yummy
+Shannon|Sharpe|Phoenix Restaurant|3|Taste Great!
+Shannon|Sharpe|Public House|3|Taste Great!
+Shannon|Sharpe|Kawa|3|Taste Great!
+Shannon|Sharpe|Satay (Sushi, Thai & Asian)|3|Taste Great!
+Shannon|Sharpe|Sarpino's Pizzeria on Lake St|3|Taste Great!
+Shannon|Sharpe|Chen's Chinese & Cuisine|3|Taste Great!
+Shannon|Sharpe|Al's Italian Beef|3|Taste Great!
+Shannon|Sharpe|Golden Apple Grill & Breakfast House|3|Taste Great!
+Shannon|Sharpe|Phoenix Restaurant|4|Good Eats!
+Shannon|Sharpe|Public House|4|Good Eats!
+Shannon|Sharpe|Kawa|4|Good Eats!
+Shannon|Sharpe|Satay (Sushi, Thai & Asian)|4|Good Eats!
+Shannon|Sharpe|Sarpino's Pizzeria on Lake St|4|Good Eats!
+Shannon|Sharpe|Chen's Chinese & Cuisine|4|Good Eats!
+Shannon|Sharpe|Al's Italian Beef|4|Good Eats!
+Shannon|Sharpe|Golden Apple Grill & Breakfast House|4|Good Eats!
+Shannon|Sharpe|Phoenix Restaurant|1|Horrible Food
+Shannon|Sharpe|Public House|1|Horrible Food
+Shannon|Sharpe|Kawa|1|Horrible Food
+Shannon|Sharpe|Satay (Sushi, Thai & Asian)|1|Horrible Food
+Shannon|Sharpe|Sarpino's Pizzeria on Lake St|1|Horrible Food
+Shannon|Sharpe|Chen's Chinese & Cuisine|1|Horrible Food
+Shannon|Sharpe|Al's Italian Beef|1|Horrible Food
+Shannon|Sharpe|Golden Apple Grill & Breakfast House|1|Horrible Food
+Shannon|Sharpe|Phoenix Restaurant|2|Not Edible
+Shannon|Sharpe|Public House|2|Not Edible
+Shannon|Sharpe|Kawa|2|Not Edible
+Shannon|Sharpe|Satay (Sushi, Thai & Asian)|2|Not Edible
+Shannon|Sharpe|Sarpino's Pizzeria on Lake St|2|Not Edible
+Shannon|Sharpe|Chen's Chinese & Cuisine|2|Not Edible
+Shannon|Sharpe|Al's Italian Beef|2|Not Edible
+Shannon|Sharpe|Golden Apple Grill & Breakfast House|2|Not Edible
+Shannon|Sharpe|Phoenix Restaurant|5|Yummy
+Shannon|Sharpe|Public House|5|Yummy
+Shannon|Sharpe|Kawa|5|Yummy
+Shannon|Sharpe|Satay (Sushi, Thai & Asian)|5|Yummy
+Shannon|Sharpe|Sarpino's Pizzeria on Lake St|5|Yummy
+Shannon|Sharpe|Chen's Chinese & Cuisine|5|Yummy
+Shannon|Sharpe|Al's Italian Beef|5|Yummy
+Shannon|Sharpe|Golden Apple Grill & Breakfast House|5|Yummy
+Benny|Clawhouser|Phoenix Restaurant|3|Taste Great!
+Benny|Clawhouser|Public House|3|Taste Great!
+Benny|Clawhouser|Kawa|3|Taste Great!
+Benny|Clawhouser|Satay (Sushi, Thai & Asian)|3|Taste Great!
+Benny|Clawhouser|Sarpino's Pizzeria on Lake St|3|Taste Great!
+Benny|Clawhouser|Chen's Chinese & Cuisine|3|Taste Great!
+Benny|Clawhouser|Al's Italian Beef|3|Taste Great!
+Benny|Clawhouser|Golden Apple Grill & Breakfast House|3|Taste Great!
+Benny|Clawhouser|Phoenix Restaurant|4|Good Eats!
+Benny|Clawhouser|Public House|4|Good Eats!
+Benny|Clawhouser|Kawa|4|Good Eats!
+Benny|Clawhouser|Satay (Sushi, Thai & Asian)|4|Good Eats!
+Benny|Clawhouser|Sarpino's Pizzeria on Lake St|4|Good Eats!
+Benny|Clawhouser|Chen's Chinese & Cuisine|4|Good Eats!
+Benny|Clawhouser|Al's Italian Beef|4|Good Eats!
+Benny|Clawhouser|Golden Apple Grill & Breakfast House|4|Good Eats!
+Benny|Clawhouser|Phoenix Restaurant|1|Horrible Food
+Benny|Clawhouser|Public House|1|Horrible Food
+Benny|Clawhouser|Kawa|1|Horrible Food
+Benny|Clawhouser|Satay (Sushi, Thai & Asian)|1|Horrible Food
+Benny|Clawhouser|Sarpino's Pizzeria on Lake St|1|Horrible Food
+Benny|Clawhouser|Chen's Chinese & Cuisine|1|Horrible Food
+Benny|Clawhouser|Al's Italian Beef|1|Horrible Food
+Benny|Clawhouser|Golden Apple Grill & Breakfast House|1|Horrible Food
+Benny|Clawhouser|Phoenix Restaurant|2|Not Edible
+Benny|Clawhouser|Public House|2|Not Edible
+Benny|Clawhouser|Kawa|2|Not Edible
+Benny|Clawhouser|Satay (Sushi, Thai & Asian)|2|Not Edible
+Benny|Clawhouser|Sarpino's Pizzeria on Lake St|2|Not Edible
+Benny|Clawhouser|Chen's Chinese & Cuisine|2|Not Edible
+Benny|Clawhouser|Al's Italian Beef|2|Not Edible
+Benny|Clawhouser|Golden Apple Grill & Breakfast House|2|Not Edible
+Benny|Clawhouser|Phoenix Restaurant|5|Yummy
+Benny|Clawhouser|Public House|5|Yummy
+Benny|Clawhouser|Kawa|5|Yummy
+Benny|Clawhouser|Satay (Sushi, Thai & Asian)|5|Yummy
+Benny|Clawhouser|Sarpino's Pizzeria on Lake St|5|Yummy
+Benny|Clawhouser|Chen's Chinese & Cuisine|5|Yummy
+Benny|Clawhouser|Al's Italian Beef|5|Yummy
+Benny|Clawhouser|Golden Apple Grill & Breakfast House|5|Yummy
+
