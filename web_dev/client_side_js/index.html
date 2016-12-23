@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Page</h1>
+
+<p id="text"></p>
+
+<button id="my_button">Click Here</button>
+
+<p id="date"></p>
+
+
+<script>
+document.getElementById("text").innerHTML = "Ennui unicorn intelligentsia deep v occupy, bicycle rights meditation bitters YOLO. Photo booth bushwick coloring book lomo, tumblr tbh bespoke sartorial craft beer gastropub post-ironic whatever pickled dreamcatcher. Migas pitchfork tofu hell of keffiyeh. YOLO subway tile cred shoreditch, meggings stumptown actually cronut hella whatever sriracha single-origin coffee kombucha pickled bitters. Bushwick tote bag cronut, leggings hammock intelligentsia meh coloring book cred typewriter. Pop-up gochujang succulents waistcoat helvetica. Viral blue bottle butcher godard DIY man bun!";
+
+
+document.getElementById("my_button").addEventListener("click", displayDate);
+
+function displayDate() {
+    document.getElementById("date").innerHTML = Date();
+}
+</script>
+
+</body>
+</html>
