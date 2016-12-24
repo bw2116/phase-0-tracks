@@ -25,3 +25,8 @@ post '/students' do
 end
 
 # add static resources
+
+get '/students/mypage' do
+  @students = db.execute("SELECT * FROM students ORDER BY campus")
+  erb :mypage
+end
